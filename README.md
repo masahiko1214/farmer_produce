@@ -83,7 +83,7 @@
 | email              | string     | null: false |
 | password           | string     | null: false |
 | yagou              | string     | null: false | 店名
-| tel_shops          | string     | null: false |
+
 
 ### Association
 
@@ -103,7 +103,7 @@
 | municipality       | string          | null: false      | 市
 | address            | string          | null: false      | 番地
 | building           | string          |                  | 建物
-| phone_number       | string          | null: false      | TEL
+| tel_cus            | string          | null: false      | TEL
 | customer           | references      | foreign key:true | 
 
 - belongs_to :customer
