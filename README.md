@@ -60,6 +60,7 @@
 | explanation        | string     | null: false                       | 農作物の説明
 | price              | integer    | null: false                       |
 | farmer             | references | null: false, foreign_key: true    |
+| category_id        | integer    | null: false, foreign_key: true    | 農作物の状態
 | delivery_fee_id    | integer    | null: false                       | 送料
 | delivery_day_id    | integer    | null: false                       | 
 
