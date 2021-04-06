@@ -1,3 +1,24 @@
+.header{
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid #6a5acd 0.1rem;
+}
+
+
+
+.header-logo{
+  font-family:'Amatic SC', cursive;
+  font-size: 2.5rem;
+  
+}
+
+.btn-border{
+margin-top: 0.5rem;
+ 
+}
 
 .btn-border-farmer {
   display: inline-block;
@@ -11,6 +32,7 @@
   padding: 8px 16px;
   border-radius: 4px;
   transition: .4s;
+  margin-right: 2rem;
 }
 
 .btn-border-farmer:hover {
