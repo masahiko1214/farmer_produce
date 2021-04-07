@@ -1,0 +1,63 @@
+.header{
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid #6a5acd 0.1rem;
+}
+
+
+
+.header-logo{
+  font-family:'Amatic SC', cursive;
+  font-size: 2.5rem;
+  
+}
+
+.btn-border{
+margin-top: 0.5rem;
+ 
+}
+
+.btn-border-farmer {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #9ec34b;
+  font-size: 16px;
+  color: #9ec34b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+  margin-right: 2rem;
+}
+
+.btn-border-farmer:hover {
+  background-color: #9ec34b;
+  border-color: #cbe585;
+  color: #FFF;
+}
+
+
+.btn-border-customer {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #6699FF;
+  font-size: 16px;
+  color: #6699FF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.btn-border-customer:hover {
+  background-color: #6699FF;
+  border-color: #66CCFF;
+  color: #FFF;
+}

@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  resources :stocks, only: :index
+
+
+  root 'stocks#home'
+  resources :stocks
+  get 'stocks/home'
+  
 end
