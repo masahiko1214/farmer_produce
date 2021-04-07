@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
 
   root 'stocks#home'
-  resources :stocks, only: :index
+  resources :stocks
   get 'stocks/home'
   
 end
