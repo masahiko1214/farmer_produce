@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_07_045149) do
+ActiveRecord::Schema.define(version: 2021_04_07_050435) do
 
   create_table "customers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "name", null: false
+    t.string "rep_name", null: false
     t.string "company_name", null: false
     t.string "yagou", null: false
     t.string "email", default: "", null: false
