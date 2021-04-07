@@ -79,7 +79,7 @@
 
 | Column             | Type       | Options     |
 | -----------------  | ---------- | ------------|
-| name               | string     | null: false |
+| rep_name           | string     | null: false | 代表者名
 | company_name       | string     | null: false | 株式会社
 | email              | string     | null: false |
 | password           | string     | null: false |
